@@ -1,5 +1,5 @@
-# Counting People, Cars, Bikes in GreenAreas at UBC point grey Campus 
-# GDPR, ethical/ data AI approach: fitler data on Edge device before uploading data to Azure
+## Counting People, Cars, Bikes in GreenAreas at UBC point grey Campus 
+
 
 ### to do
 * [x] Convert YOLOv4 tiny (Coco Dataset) to TFLite
@@ -91,3 +91,10 @@ python3 detect.py --weights ./checkpoints/yolov4-416-fp16.tflite --size 416 --mo
 
 ## SSD TFLite Coco dataset model:
 Google's ssd rflite model 
+
+
+## GDPR, ethical/ data AI approach: fitler data on Edge device before uploading data to Azure
+
+## Docker:
+* most likely to be the easiest way to maintain the latest custom vision model. [maintain == retrain models further, with additional accumulated data]
+* run/interchange multiple models on the same node
